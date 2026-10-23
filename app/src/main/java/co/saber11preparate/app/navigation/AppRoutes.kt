@@ -1,11 +1,18 @@
 package co.saber11preparate.app.navigation
 
 /**
- * Rutas tipadas de la aplicación (fase 03).
- * La selección de rol es solo de demostración; no constituye autenticación real.
+ * Rutas tipadas de la aplicación.
+ * Auth demo ≠ autorización de producción.
  */
 sealed class AppRoute(val route: String) {
-    data object Home : AppRoute("home")
+    data object Welcome : AppRoute("auth/welcome")
+    data object Login : AppRoute("auth/login")
+    data object Register : AppRoute("auth/register")
+    data object ForgotPassword : AppRoute("auth/forgot_password")
+
+    /** Selector de roles solo para explorar UI (sin sesión). */
+    data object DemoHub : AppRoute("demo/hub")
+
     data object Student : AppRoute("student")
     data object Teacher : AppRoute("teacher")
     data object Admin : AppRoute("admin")

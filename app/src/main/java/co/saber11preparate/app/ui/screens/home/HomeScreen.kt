@@ -1,5 +1,6 @@
 package co.saber11preparate.app.ui.screens.home
 
+import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
@@ -14,6 +15,7 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -30,7 +32,7 @@ import co.saber11preparate.app.ui.components.ResponsiveContent
 import co.saber11preparate.app.ui.theme.Saber11Theme
 
 /**
- * Punto de entrada con selección temporal de rol (solo demostración de UI).
+ * Hub de exploración de UI por rol (solo demostración).
  * No constituye autenticación ni autorización real.
  */
 @Composable
@@ -39,7 +41,11 @@ fun HomeScreen(
     onOpenStudentDemo: () -> Unit = {},
     onOpenTeacherDemo: () -> Unit = {},
     onOpenAdminDemo: () -> Unit = {},
+    onBackToWelcome: (() -> Unit)? = null,
 ) {
+    if (onBackToWelcome != null) {
+        BackHandler(onBack = onBackToWelcome)
+    }
     Column(modifier = modifier.fillMaxSize()) {
         Spacer(modifier = Modifier.statusBarsPadding())
         DemoModeBanner()
@@ -94,6 +100,12 @@ fun HomeScreen(
                         text = stringResource(R.string.demo_enter_admin),
                         onClick = onOpenAdminDemo,
                     )
+                    if (onBackToWelcome != null) {
+                        Spacer(modifier = Modifier.height(AppSpacing.md))
+                        TextButton(onClick = onBackToWelcome) {
+                            Text(text = stringResource(R.string.action_back))
+                        }
+                    }
                 }
             }
         }

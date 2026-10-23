@@ -1,9 +1,8 @@
 package co.saber11preparate.app.data
 
 /**
- * Paquete reservado para la capa de datos
- * (repositorios, fuentes remotas/locales, mappers).
- *
- * Supabase y persistencia se integrarán desde la fase 05.
+ * Reserva documental de la capa de datos.
+ * La autenticación demo vive en [co.saber11preparate.app.data.auth].
+ * Supabase y persistencia remota se integrarán en fases posteriores.
  */
 internal object DataPlaceholder

@@ -9,7 +9,38 @@
     <string name="demo_enter_teacher">Docente (demo)</string>
     <string name="demo_enter_admin">Administrador (demo)</string>
     <string name="action_exit_demo">Salir de la demostración</string>
+    <string name="action_back">Atrás</string>
     <string name="placeholder_coming_later">Contenido funcional en fases posteriores</string>
+
+    <string name="auth_demo_notice">Modo demostración: no se utiliza autenticación real</string>
+    <string name="auth_sign_in">Iniciar sesión</string>
+    <string name="auth_register">Registrarse</string>
+    <string name="auth_explore_demo_ui">Explorar interfaz (demo sin cuenta)</string>
+    <string name="auth_email">Correo electrónico</string>
+    <string name="auth_password">Contraseña</string>
+    <string name="auth_confirm_password">Confirmar contraseña</string>
+    <string name="auth_display_name">Nombre completo</string>
+    <string name="auth_school_grade">Grado escolar</string>
+    <string name="auth_teaching_area">Área de enseñanza</string>
+    <string name="auth_create_account">Crear cuenta (demo)</string>
+    <string name="auth_forgot_password">Recuperar contraseña</string>
+    <string name="auth_forgot_password_intro">Ingresa tu correo. En este modo demo no se envía ningún correo real.</string>
+    <string name="auth_forgot_password_simulated">Solicitud simulada registrada. No se envió ningún correo electrónico.</string>
+    <string name="auth_send_reset_demo">Simular solicitud</string>
+    <string name="auth_back_to_sign_in">Volver al inicio de sesión</string>
+    <string name="auth_please_wait">Espera…</string>
+    <string name="auth_register_role_hint">Elige el tipo de cuenta pública:</string>
+    <string name="auth_no_public_admin">El rol administrador no está disponible en el registro público.</string>
+
+    <string name="auth_error_empty_fields">Completa todos los campos obligatorios.</string>
+    <string name="auth_error_invalid_email">El correo electrónico no es válido.</string>
+    <string name="auth_error_weak_password">La contraseña debe tener al menos %1$d caracteres.</string>
+    <string name="auth_error_password_mismatch">Las contraseñas no coinciden.</string>
+    <string name="auth_error_email_registered">Este correo ya está registrado en la demo.</string>
+    <string name="auth_error_invalid_credentials">Correo o contraseña incorrectos.</string>
+    <string name="auth_error_admin_forbidden">No es posible registrarse como administrador.</string>
+    <string name="auth_error_missing_grade">Selecciona el grado escolar.</string>
+    <string name="auth_error_missing_area">Selecciona el área de enseñanza.</string>
 
     <string name="nav_home">Inicio</string>
     <string name="nav_practice">Práctica</string>
