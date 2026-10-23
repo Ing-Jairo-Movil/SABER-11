@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">SABER 11 PREPÁRATE</string>
+    <string name="home_tagline">Prepárate para las pruebas Saber 11 del ICFES</string>
+    <string name="home_continue">Continuar</string>
+    <string name="home_demo_role_hint">Selecciona un rol solo para explorar la interfaz. No es un inicio de sesión real.</string>
+
+    <string name="demo_banner">Modo demostración — datos ficticios</string>
+    <string name="demo_enter_student">Estudiante (demo)</string>
+    <string name="demo_enter_teacher">Docente (demo)</string>
+    <string name="demo_enter_admin">Administrador (demo)</string>
+    <string name="action_exit_demo">Salir de la demostración</string>
+    <string name="placeholder_coming_later">Contenido funcional en fases posteriores</string>
+
+    <string name="nav_home">Inicio</string>
+    <string name="nav_practice">Práctica</string>
+    <string name="nav_simulations">Simulacros</string>
+    <string name="nav_simulations_short">Simulacro</string>
+    <string name="nav_ranking">Ranking</string>
+    <string name="nav_profile">Perfil</string>
+    <string name="nav_groups">Grupos</string>
+    <string name="nav_students">Estudiantes</string>
+    <string name="nav_students_short">Alumnos</string>
+    <string name="nav_activities">Actividades</string>
+    <string name="nav_activities_short">Tareas</string>
+    <string name="nav_reports">Informes</string>
+    <string name="nav_users">Usuarios</string>
+    <string name="nav_academic">Académico</string>
+    <string name="nav_stats">Estadísticas</string>
+    <string name="nav_stats_short">Métricas</string>
+    <string name="nav_settings">Configuración</string>
+    <string name="nav_settings_short">Ajustes</string>
+
+    <string name="shell_student_title">Estudiante</string>
+    <string name="shell_teacher_title">Docente</string>
+    <string name="shell_admin_title">Administrador</string>
+
+    <string name="student_greeting">Hola, %1$s</string>
+    <string name="student_progress_title">Tu progreso (demo)</string>
+    <string name="student_progress_summary">Avance general %1$d%% · %2$d puntos · racha %3$d días</string>
+    <string name="student_areas_title">Áreas Saber 11 (demo)</string>
+    <string name="student_quick_access">Accesos rápidos</string>
+    <string name="student_practice_hint">Práctica por área — interfaz de demostración</string>
+    <string name="student_simulations_hint">Simulacros cronometrados — interfaz de demostración</string>
+    <string name="student_ranking_hint">Puntos y clasificación — interfaz de demostración</string>
+    <string name="student_profile_hint">Perfil del estudiante — interfaz de demostración</string>
+
+    <string name="teacher_greeting">Panel de %1$s</string>
+    <string name="teacher_panel_summary">Resumen del panel (demo)</string>
+    <string name="teacher_quick_access">Accesos del docente</string>
+    <string name="teacher_groups_hint">Gestionar grupos — interfaz de demostración</string>
+    <string name="teacher_students_hint">Seguimiento de estudiantes — interfaz de demostración</string>
+    <string name="teacher_activities_hint">Actividades asignadas — interfaz de demostración</string>
+    <string name="teacher_reports_hint">Informes de desempeño — interfaz de demostración</string>
+
+    <string name="admin_greeting">%1$s</string>
+    <string name="admin_panel_summary">Indicadores institucionales (demo)</string>
+    <string name="admin_quick_access">Gestión administrativa</string>
+    <string name="admin_users_hint">Gestión de usuarios — interfaz de demostración</string>
+    <string name="admin_academic_hint">Gestión académica — interfaz de demostración</string>
+    <string name="admin_stats_hint">Estadísticas globales — interfaz de demostración</string>
+    <string name="admin_settings_hint">Configuración del sistema — interfaz de demostración</string>
+</resources>
